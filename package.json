@@ -5,9 +5,9 @@
   "description": "Node.js HTTP Web server for the Kanbas application",
   "main": "index.js",
   "scripts": {
+    "start": "node App.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "start": "node App.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ShqiW/kanbas-node-server-app.git"
