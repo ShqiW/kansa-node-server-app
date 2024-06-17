@@ -1,7 +1,6 @@
 import model from "./model.js";
 
 export const createModule = (module) => {
-    delete module._id
     return model.create(module);
 }
 
